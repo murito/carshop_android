@@ -15,6 +15,8 @@ roomVersion = "2.8.3"
 ksp = "2.0.21-1.0.27"
 hilt = "2.52"
 hiltNavigationCompose = "1.2.0"
+googleMaps = "19.2.0"
+googleMapsCompose = "4.4.1"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -40,6 +42,8 @@ androidx-room-ktx = { module = "androidx.room:room-ktx", version.ref = "roomVers
 hilt = { group = "com.google.dagger", name = "hilt-android", version.ref = "hilt" }
 hilt-compiler = { group = "com.google.dagger", name = "hilt-compiler", version.ref = "hilt" }
 hilt-navigation-compose = { group = "androidx.hilt", name = "hilt-navigation-compose", version.ref = "hiltNavigationCompose" }
+google-play-services-maps = { group = "com.google.android.gms", name = "play-services-maps", version.ref = "googleMaps" }
+google-maps-compose = { group = "com.google.maps.android", name = "maps-compose", version.ref = "googleMapsCompose" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
