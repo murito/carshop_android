@@ -1,0 +1,37 @@
+# Built application files
+*.apk
+*.ap_
+*.aab
+
+# Files for the Dex VM
+*.dex
+
+# Java class files
+*.class
+
+# Generated files
+bin/
+gen/
+
+# Local configuration file (SDK path, etc.)
+local.properties
+
+# Windows thumbnail database
+Thumbs.db
+
+# OSX files
+.DS_Store
+
+# Android Studio
+*.iml
+.idea/
+.idea/workspace.xml # You might want to remove this line if you need to track workspace.xml
+
+# Gradle
+.gradle/
+build/
+
+.DS_Store
+.kotlin/
+
+app/src/main/res/values/google_maps_api.xml
